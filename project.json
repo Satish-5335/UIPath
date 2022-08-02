@@ -1,0 +1,60 @@
+{
+  "name": "DB_Crud Operations",
+  "description": "insert\r\n",
+  "main": "Insert_ops.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.4.0]",
+    "UiPath.Excel.Activities": "[2.13.0-preview]",
+    "UiPath.Mail.Activities": "[1.16.0-preview]",
+    "UiPath.System.Activities": "[22.7.0-preview]",
+    "UiPath.Testing.Activities": "[22.7.0-preview]",
+    "UiPath.UIAutomation.Activities": "[22.7.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.7.0.0",
+  "projectVersion": "1.0.6",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Insert_ops.xaml",
+      "uniqueId": "d9b42287-2f4f-41ee-ba54-2a2e6a6ea10f",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
